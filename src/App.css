@@ -1,0 +1,25 @@
+@keyframes rightLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-rightLeft {
+    animation: rightLeft 10s linear infinite;
+}
+
+@keyframes icon {
+    0% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-130%);
+    }
+}
+
+.animate-icon {
+    animation: icon 5s linear infinite;
+}
